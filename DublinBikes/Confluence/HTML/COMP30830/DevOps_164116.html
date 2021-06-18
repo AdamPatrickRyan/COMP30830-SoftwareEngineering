@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Disappster : DevOps</title>
+        <link rel="stylesheet" href="styles/site.css" type="text/css" />
+        <META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    </head>
+
+    <body class="theme-default aui-theme-default">
+        <div id="page">
+            <div id="main" class="aui-page-panel">
+                <div id="main-header">
+                    <div id="breadcrumb-section">
+                        <ol id="breadcrumbs">
+                            <li class="first">
+                                <span><a href="index.html">Disappster</a></span>
+                            </li>
+                                                    <li>
+                                <span><a href="Disappster-Home_33079.html">Disappster Home</a></span>
+                            </li>
+                                                    <li>
+                                <span><a href="System-Design_33384.html">System Design</a></span>
+                            </li>
+                                                </ol>
+                    </div>
+                    <h1 id="title-heading" class="pagetitle">
+                                                <span id="title-text">
+                            Disappster : DevOps
+                        </span>
+                    </h1>
+                </div>
+
+                <div id="content" class="view">
+                    <div class="page-metadata">
+                        
+        
+    
+        
+    
+        
+        
+            Created by <span class='author'> Adam Ryan</span>, last modified on Mar 30, 2021
+                        </div>
+                    <div id="main-content" class="wiki-content group">
+                    <p>This page is to document the Development Operations process (i.e. Git Process).</p><h2 id="DevOps-DevOpsProcess">DevOps Process</h2><p>For Sprint 1 and 2, following the instruction that we should all be involved in various components of the application, we initially elected to develop the early stages of the app individually so that we were all familiar with the processes and challenges involved. </p><p>The net result of Sprint 1 was the completion of a data harvester added into our Github repository, and the net result of Sprint 2 is we all had Flask Apps complete (up to end of Sprint 2 goals).</p><p>Following the end of Sprint 2, as aspects of the application became more specialised and following the understanding of how Flask Apps are built we conducted a code merge of our applications which commenced the beginning of our unified code base and adoption of the app being within Github in our shared repository.</p><p>For Sprint 3 and Sprint 4, we have elected to use two primary branches for the development of features; a feature development branch, and a main development branch. The main development branch is used for the completion of sprint goals (e.g. code merge in sprint 3, and code push at the end). </p><p>The feature development branch is the primary development branch due to the small team size. Within this branch a <strong>Centralised Workflow </strong>(<a href="https://www.atlassian.com/git/tutorials/comparing-workflows#centralized-workflow" data-card-appearance="inline" class="external-link" rel="nofollow">https://www.atlassian.com/git/tutorials/comparing-workflows#centralized-workflow</a> ) process was enabled. </p><p>The team process for conducting git pushes to features therefore became:</p><ol><li><p>git pull</p></li><li><p>git add &lt;file&gt;</p></li><li><p>git commit -m ‘&lt;Message&gt;’</p></li><li><p>git push</p></li></ol><h2 id="DevOps-GitBranchingGraph">Git Branching Graph</h2><p>Current GitHub repository is located at the following link: <a href="https://github.com/Frogers98/dublin-bikes" data-card-appearance="inline" class="external-link" rel="nofollow">https://github.com/Frogers98/dublin-bikes</a> </p><p /><span class="confluence-embedded-file-wrapper image-center-wrapper"><img class="confluence-embedded-image image-center" loading="lazy" src="attachments/164116/62324789.png" data-image-src="attachments/164116/62324789.png" data-height="700" data-width="840" data-unresolved-comment-count="0" data-linked-resource-id="62324789" data-linked-resource-version="1" data-linked-resource-type="attachment" data-linked-resource-default-alias="image-20210330-181703.png" data-base-url="https://disappster.atlassian.net/wiki" data-linked-resource-content-type="image/png" data-linked-resource-container-id="164116" data-linked-resource-container-version="3" data-media-id="395f7092-bf5d-4b8b-ba14-ce16c337b47f" data-media-type="file"></span><span class="confluence-embedded-file-wrapper image-center-wrapper"><img class="confluence-embedded-image image-center" loading="lazy" src="attachments/164116/62292008.png" data-image-src="attachments/164116/62292008.png" data-height="715" data-width="848" data-unresolved-comment-count="0" data-linked-resource-id="62292008" data-linked-resource-version="1" data-linked-resource-type="attachment" data-linked-resource-default-alias="image-20210330-181617.png" data-base-url="https://disappster.atlassian.net/wiki" data-linked-resource-content-type="image/png" data-linked-resource-container-id="164116" data-linked-resource-container-version="3" data-media-id="e8c7d6fa-3be4-4dfd-b827-061302464a03" data-media-type="file"></span><p /><span class="confluence-embedded-file-wrapper image-center-wrapper"><img class="confluence-embedded-image image-center" loading="lazy" src="attachments/164116/62357533.png" data-image-src="attachments/164116/62357533.png" data-height="718" data-width="828" data-unresolved-comment-count="0" data-linked-resource-id="62357533" data-linked-resource-version="1" data-linked-resource-type="attachment" data-linked-resource-default-alias="image-20210330-181551.png" data-base-url="https://disappster.atlassian.net/wiki" data-linked-resource-content-type="image/png" data-linked-resource-container-id="164116" data-linked-resource-container-version="3" data-media-id="6da41292-be1b-4cfd-9f88-464413a69fcd" data-media-type="file"></span><p /><span class="confluence-embedded-file-wrapper image-center-wrapper"><img class="confluence-embedded-image image-center" loading="lazy" src="attachments/164116/62357527.png" data-image-src="attachments/164116/62357527.png" data-height="672" data-width="820" data-unresolved-comment-count="0" data-linked-resource-id="62357527" data-linked-resource-version="1" data-linked-resource-type="attachment" data-linked-resource-default-alias="image-20210330-181520.png" data-base-url="https://disappster.atlassian.net/wiki" data-linked-resource-content-type="image/png" data-linked-resource-container-id="164116" data-linked-resource-container-version="3" data-media-id="072d78ca-6115-41bf-ba08-ef7ddf018f2e" data-media-type="file"></span><p /><p />
+                    </div>
+
+                                        <div class="pageSection group">
+                        <div class="pageSectionHeader">
+                            <h2 id="attachments" class="pageSectionTitle">Attachments:</h2>
+                        </div>
+
+                        <div class="greybox" align="left">
+                                                            <img src="images/icons/bullet_blue.gif" height="8" width="8" alt=""/>
+                                <a href="attachments/164116/17268914.png">image-20210223-215858.png</a> (image/png)
+                                <br/>
+                                                            <img src="images/icons/bullet_blue.gif" height="8" width="8" alt=""/>
+                                <a href="attachments/164116/62357527.png">image-20210330-181520.png</a> (image/png)
+                                <br/>
+                                                            <img src="images/icons/bullet_blue.gif" height="8" width="8" alt=""/>
+                                <a href="attachments/164116/62357533.png">image-20210330-181551.png</a> (image/png)
+                                <br/>
+                                                            <img src="images/icons/bullet_blue.gif" height="8" width="8" alt=""/>
+                                <a href="attachments/164116/62292008.png">image-20210330-181617.png</a> (image/png)
+                                <br/>
+                                                            <img src="images/icons/bullet_blue.gif" height="8" width="8" alt=""/>
+                                <a href="attachments/164116/62324789.png">image-20210330-181703.png</a> (image/png)
+                                <br/>
+                                                    </div>
+                    </div>
+                    
+                                                      
+                </div>             </div> 
+            <div id="footer" role="contentinfo">
+                <section class="footer-body">
+                    <p>Document generated by Confluence on May 25, 2021 14:55</p>
+                    <div id="footer-logo"><a href="http://www.atlassian.com/">Atlassian</a></div>
+                </section>
+            </div>
+        </div>     </body>
+</html>

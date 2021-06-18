@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Disappster : Product Requirements</title>
+        <link rel="stylesheet" href="styles/site.css" type="text/css" />
+        <META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    </head>
+
+    <body class="theme-default aui-theme-default">
+        <div id="page">
+            <div id="main" class="aui-page-panel">
+                <div id="main-header">
+                    <div id="breadcrumb-section">
+                        <ol id="breadcrumbs">
+                            <li class="first">
+                                <span><a href="index.html">Disappster</a></span>
+                            </li>
+                                                    <li>
+                                <span><a href="Disappster-Home_33079.html">Disappster Home</a></span>
+                            </li>
+                                                </ol>
+                    </div>
+                    <h1 id="title-heading" class="pagetitle">
+                                                <span id="title-text">
+                            Disappster : Product Requirements
+                        </span>
+                    </h1>
+                </div>
+
+                <div id="content" class="view">
+                    <div class="page-metadata">
+                        
+        
+    
+        
+    
+        
+        
+            Created by <span class='author'> Adam Ryan</span>, last modified on Apr 16, 2021
+                        </div>
+                    <div id="main-content" class="wiki-content group">
+                    <p></p><div class='plugin-tabmeta-details'><div class="table-wrap"><table data-layout="default" class="confluenceTable"><colgroup><col style="width: 340.0px;"/><col style="width: 340.0px;"/></colgroup><tbody><tr><th class="confluenceTh"><p><strong>Target release</strong></p></th><td class="confluenceTd"><p><time datetime="2021-04-16" class="date-past">16 Apr 2021</time> </p></td></tr><tr><th class="confluenceTh"><p><strong>MVP Release Date</strong></p></th><td class="confluenceTd"><p><time datetime="2021-04-14" class="date-past">14 Apr 2021</time> </p></td></tr><tr><th class="confluenceTh"><p><strong>Document status</strong></p></th><td class="confluenceTd"><p><span class="status-macro aui-lozenge aui-lozenge-success">FINAL</span></p></td></tr><tr><th class="confluenceTh"><p><strong>Confluence owner</strong></p></th><td class="confluenceTd"><p><a class="confluence-userlink user-mention current-user-mention" data-username="5f9b4cb244658b0071327e42" data-account-id="5f9b4cb244658b0071327e42" href="https://disappster.atlassian.net/wiki/people/5f9b4cb244658b0071327e42?ref=confluence" target="_blank" data-linked-resource-id="163849" data-linked-resource-version="1" data-linked-resource-type="userinfo" data-base-url="https://disappster.atlassian.net/wiki">Adam Ryan</a></p></td></tr><tr><th class="confluenceTh"><p><strong>Product Owner</strong></p></th><td class="confluenceTd"><p><a class="confluence-userlink user-mention" data-username="602d36577f77e30068afc827" data-account-id="602d36577f77e30068afc827" href="https://disappster.atlassian.net/wiki/people/602d36577f77e30068afc827?ref=confluence" target="_blank" data-linked-resource-id="7176198" data-linked-resource-version="1" data-linked-resource-type="userinfo" data-base-url="https://disappster.atlassian.net/wiki">karl.roe</a> </p></td></tr></tbody></table></div></div><h2 id="ProductRequirements-Objective">Objective</h2><p><strong>Deliverable Project </strong></p><p>This is not an exhaustive list, but contains the main elements of a working solution</p><ol><li><p>data collection through JCDecaux API</p></li><li><p>data management/storage in RDS DB on AWS 3. display bike stations on map</p></li><li><p>flask web application (python)</p></li><li><p>occupancy information</p></li><li><p>weather information</p></li><li><p>interactivity (click, API request, handle response)</p></li><li><p>ML model for predicting occupancy based on weather patterns, trained on collected data</p></li><li><p>project served on a named host over the web on your EC2 instance ← NAMED HOST REQUIREMENT DROPPED</p></li><li><p>Github repo, including source code, logs, commit history, branches, etc</p></li></ol><p><strong>Project Management </strong></p><ol><li><p>Design, planning notes and materials, discussion of Requirements, mock</p></li><li><p>Scrum project management (trello board, slack logs, google docs, etc)</p></li><li><p>Meeting notes (log of daily standup, notes from sprint reviews, retrospec- tives</p></li><li><p>feature selection/product backlog for each sprint (× 4)</p></li><li><p>burndown charts, (sprint and/or release) for each sprint (× 4)</p></li><li><p>managing deliverables, prototypes</p></li></ol><p><strong> Personal Notes (Individual Submission)</strong></p><ol><li><p>personal review</p></li><li><p>retrospective of the project</p></li></ol><h2 id="ProductRequirements-KeyGoal:Asauser,IwishtobeabletoaccessaninteractableflaskwebapplicationwhereinIcanviewoccupancyandweatherinformationandgetapredictionastowhattheavailablebikeswillbelikeforacertaindaybasedonanMLmodel,sothatIcantakebikejourneysusingabikes">Key Goal: As a user, I wish to be able to access an interactable flask web application wherein I can view occupancy and weather information and get a prediction as to what the available bikes will be like for a certain day based on an ML model, so that I can take bike journeys using a bike sharing scheme.</h2><h2 id="ProductRequirements-Successmetrics">Success metrics</h2><p></p><div class="table-wrap"><table data-layout="default" class="confluenceTable"><colgroup><col style="width: 340.0px;"/><col style="width: 340.0px;"/></colgroup><tbody><tr><th class="confluenceTh"><p>Goal</p></th><th class="confluenceTh"><p>Metric</p></th></tr><tr><td class="confluenceTd"><p>I can access a website</p></td><td class="confluenceTd"><p>URL is Valid</p></td></tr><tr><td class="confluenceTd"><p>Weather info is on that website</p></td><td class="confluenceTd"><p>Weather Info is Displayed</p></td></tr><tr><td class="confluenceTd"><p>Availability info is on that website</p></td><td class="confluenceTd"><p>Availability Info is Displayed</p></td></tr><tr><td class="confluenceTd"><p>Station info is on that website</p></td><td class="confluenceTd"><p>Station Info is Displayed</p></td></tr><tr><td class="confluenceTd"><p>I can interact with the website</p></td><td class="confluenceTd"><p>The user can Click Stations</p></td></tr><tr><td class="confluenceTd"><p>I can predict future bike availability</p></td><td class="confluenceTd"><p>The user can predict availability in the Future</p></td></tr></tbody></table></div><h2 id="ProductRequirements-MilestonesandUserStories">Milestones and User Stories</h2><p>The Roadmap contains information on the product roadmap and various Milestones. </p><p>Epics in this roadmap correspond to the list of User Stories.</p><a href="https://disappster.atlassian.net/jira/software/projects/COMP30830/boards/1/roadmap" data-layout="wide" data-width="100.00" data-card-appearance="embed" class="external-link" rel="nofollow">https://disappster.atlassian.net/jira/software/projects/COMP30830/boards/1/roadmap</a><p />
+                    </div>
+
+                    
+                                                      
+                </div>             </div> 
+            <div id="footer" role="contentinfo">
+                <section class="footer-body">
+                    <p>Document generated by Confluence on May 25, 2021 14:55</p>
+                    <div id="footer-logo"><a href="http://www.atlassian.com/">Atlassian</a></div>
+                </section>
+            </div>
+        </div>     </body>
+</html>

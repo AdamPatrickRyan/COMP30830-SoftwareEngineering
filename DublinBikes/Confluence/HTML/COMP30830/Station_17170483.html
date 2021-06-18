@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Disappster : Station</title>
+        <link rel="stylesheet" href="styles/site.css" type="text/css" />
+        <META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    </head>
+
+    <body class="theme-default aui-theme-default">
+        <div id="page">
+            <div id="main" class="aui-page-panel">
+                <div id="main-header">
+                    <div id="breadcrumb-section">
+                        <ol id="breadcrumbs">
+                            <li class="first">
+                                <span><a href="index.html">Disappster</a></span>
+                            </li>
+                                                    <li>
+                                <span><a href="Disappster-Home_33079.html">Disappster Home</a></span>
+                            </li>
+                                                    <li>
+                                <span><a href="System-Design_33384.html">System Design</a></span>
+                            </li>
+                                                    <li>
+                                <span><a href="Data-Model_33427.html">Data Model</a></span>
+                            </li>
+                                                    <li>
+                                <span><a href="Extract-Data-Store_7733277.html">Extract Data Store</a></span>
+                            </li>
+                                                </ol>
+                    </div>
+                    <h1 id="title-heading" class="pagetitle">
+                                                <span id="title-text">
+                            Disappster : Station
+                        </span>
+                    </h1>
+                </div>
+
+                <div id="content" class="view">
+                    <div class="page-metadata">
+                        
+        
+    
+        
+    
+        
+        
+            Created by <span class='author'> Adam Ryan</span>, last modified on Feb 23, 2021
+                        </div>
+                    <div id="main-content" class="wiki-content group">
+                    <p>This page details the availability table. </p><p>It captures bike stand numbers.</p><div class='plugin-tabmeta-details'><h2 id="Station-StationTable">Station Table</h2><h2 id="Station-DublinStationMapping">Dublin Station Mapping</h2><div class="table-wrap"><table data-layout="default" class="confluenceTable"><colgroup><col/><col style="width: 192.0px;"/><col style="width: 190.0px;"/><col style="width: 190.0px;"/><col style="width: 190.0px;"/><col style="width: 190.0px;"/><col style="width: 190.0px;"/><col style="width: 190.0px;"/><col style="width: 190.0px;"/></colgroup><tbody><tr><th class="numberingColumn confluenceTh" /><th class="confluenceTh"><p><strong>Name</strong></p></th><th class="confluenceTh"><p><strong>Type</strong></p></th><th class="confluenceTh"><p><strong>All Instances Unique?</strong></p></th><th class="confluenceTh"><p><strong>PK</strong></p></th><th class="confluenceTh"><p><strong>FK</strong></p></th><th class="confluenceTh"><p><strong>Field Values</strong></p></th><th class="confluenceTh"><p><strong>Nullable</strong></p></th><th class="confluenceTh"><p><strong>Description</strong></p></th></tr><tr><td class="numberingColumn confluenceTd">1</td><td class="confluenceTd"><p>number</p></td><td class="confluenceTd"><p>INT</p></td><td class="confluenceTd"><p>Yes</p></td><td class="confluenceTd"><p>Yes</p></td><td class="confluenceTd"><p>No</p></td><td class="confluenceTd"><p>1, 2, … , 109</p></td><td class="confluenceTd"><p>No</p></td><td class="confluenceTd"><p>PK of Station</p></td></tr><tr><td class="numberingColumn confluenceTd">2</td><td class="confluenceTd"><p>contract_name</p></td><td class="confluenceTd"><p>varchar(6)</p></td><td class="confluenceTd"><p>No</p></td><td class="confluenceTd"><p>No</p></td><td class="confluenceTd"><p>Yes</p></td><td class="confluenceTd"><p>dublin</p></td><td class="confluenceTd"><p>No</p></td><td class="confluenceTd"><p>Denotes JCDecaus’s contract</p><p><strong><u>dublin</u></strong></p></td></tr><tr><td class="numberingColumn confluenceTd">3</td><td class="confluenceTd"><p>name</p></td><td class="confluenceTd"><p>varchar(256)</p></td><td class="confluenceTd"><p>Yes</p></td><td class="confluenceTd"><p>No</p></td><td class="confluenceTd"><p>No</p></td><td class="confluenceTd"><p>'MATER HOSPITAL'</p></td><td class="confluenceTd"><p>No</p></td><td class="confluenceTd"><p>Name of Station</p></td></tr><tr><td class="numberingColumn confluenceTd">4</td><td class="confluenceTd"><p>address</p></td><td class="confluenceTd"><p>varchar(256)</p></td><td class="confluenceTd"><p>Yes</p></td><td class="confluenceTd"><p>No</p></td><td class="confluenceTd"><p>Maybe</p></td><td class="confluenceTd"><p>Wolfe Tone Street</p></td><td class="confluenceTd"><p>No</p></td><td class="confluenceTd"><p>Address Name</p></td></tr><tr><td class="numberingColumn confluenceTd">5</td><td class="confluenceTd"><p>position_lat</p></td><td class="confluenceTd"><p>REAL</p></td><td class="confluenceTd"><p>Yes</p></td><td class="confluenceTd"><p>No</p></td><td class="confluenceTd"><p>Maybe</p></td><td class="confluenceTd"><p>53.333653</p></td><td class="confluenceTd"><p>No</p></td><td class="confluenceTd"><p>Position - Latitude</p></td></tr><tr><td class="numberingColumn confluenceTd">6</td><td class="confluenceTd"><p>position_long</p></td><td class="confluenceTd"><p>REAL</p></td><td class="confluenceTd"><p>Yes</p></td><td class="confluenceTd"><p>No</p></td><td class="confluenceTd"><p>Maybe</p></td><td class="confluenceTd"><p>-6.248345</p></td><td class="confluenceTd"><p>No</p></td><td class="confluenceTd"><p>Position - Longitude</p></td></tr><tr><td class="numberingColumn confluenceTd">7</td><td class="confluenceTd"><p>banking</p></td><td class="confluenceTd"><p>int64</p></td><td class="confluenceTd"><p>No</p></td><td class="confluenceTd"><p>No</p></td><td class="confluenceTd"><p>No</p></td><td class="confluenceTd"><p>True/False</p></td><td class="confluenceTd"><p>No</p></td><td class="confluenceTd"><p>??? - Determine Meaning</p></td></tr><tr><td class="numberingColumn confluenceTd">8</td><td class="confluenceTd"><p>bonus</p></td><td class="confluenceTd"><p>int64</p></td><td class="confluenceTd"><p>No</p></td><td class="confluenceTd"><p>No</p></td><td class="confluenceTd"><p>No</p></td><td class="confluenceTd"><p>True/False</p></td><td class="confluenceTd"><p>No</p></td><td class="confluenceTd"><p>??? - Determine Meaning</p></td></tr><tr><td class="numberingColumn confluenceTd">9</td><td class="confluenceTd"><p>status</p></td><td class="confluenceTd"><p>varchar(256)</p></td><td class="confluenceTd"><p>No</p></td><td class="confluenceTd"><p>No</p></td><td class="confluenceTd"><p>No</p></td><td class="confluenceTd"><p>Open/Close</p></td><td class="confluenceTd"><p>No</p></td><td class="confluenceTd"><p>Open or Close - Identify meaning</p></td></tr><tr><td class="numberingColumn confluenceTd">10</td><td class="confluenceTd"><p>created_date</p></td><td class="confluenceTd"><p>BIGINT</p></td><td class="confluenceTd"><p>No</p></td><td class="confluenceTd"><p>No</p></td><td class="confluenceTd"><p>No</p></td><td class="confluenceTd"><p>Date of Last Update</p></td><td class="confluenceTd"><p>No</p></td><td class="confluenceTd"><p>Timestamp updated</p></td></tr></tbody></table></div><h2 id="Station-Note">Note</h2><p>Number is a primary key.</p><h2 id="Station-SummaryData">Summary Data</h2><span class="confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size"><img class="confluence-embedded-image image-center" width="442" loading="lazy" src="attachments/17170483/17170518.png?width=442" data-image-src="attachments/17170483/17170518.png" data-height="211" data-width="542" data-unresolved-comment-count="0" data-linked-resource-id="17170518" data-linked-resource-version="1" data-linked-resource-type="attachment" data-linked-resource-default-alias="image-20210217-184044.png" data-base-url="https://disappster.atlassian.net/wiki" data-linked-resource-content-type="image/png" data-linked-resource-container-id="17170483" data-linked-resource-container-version="4" data-media-id="5f216fed-707c-46da-8f70-75c9765826b7" data-media-type="file"></span><p /><span class="confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size"><img class="confluence-embedded-image image-center" width="680" loading="lazy" src="attachments/17170483/17170524.png?width=680" data-image-src="attachments/17170483/17170524.png" data-height="204" data-width="1001" data-unresolved-comment-count="0" data-linked-resource-id="17170524" data-linked-resource-version="1" data-linked-resource-type="attachment" data-linked-resource-default-alias="image-20210217-184145.png" data-base-url="https://disappster.atlassian.net/wiki" data-linked-resource-content-type="image/png" data-linked-resource-container-id="17170483" data-linked-resource-container-version="4" data-media-id="614e7585-7772-4601-994d-bebaa16c672b" data-media-type="file"></span><p /><h2 id="Station-HeaderSummary:">Header Summary:</h2><span class="confluence-embedded-file-wrapper image-center-wrapper"><img class="confluence-embedded-image image-center" loading="lazy" src="attachments/17170483/17170530.png" data-image-src="attachments/17170483/17170530.png" data-height="369" data-width="1180" data-unresolved-comment-count="0" data-linked-resource-id="17170530" data-linked-resource-version="1" data-linked-resource-type="attachment" data-linked-resource-default-alias="image-20210217-184332.png" data-base-url="https://disappster.atlassian.net/wiki" data-linked-resource-content-type="image/png" data-linked-resource-container-id="17170483" data-linked-resource-container-version="4" data-media-id="df445744-9b9c-46b7-afaf-3a1d510e156f" data-media-type="file"></span><p /></div>
+                    </div>
+
+                                        <div class="pageSection group">
+                        <div class="pageSectionHeader">
+                            <h2 id="attachments" class="pageSectionTitle">Attachments:</h2>
+                        </div>
+
+                        <div class="greybox" align="left">
+                                                            <img src="images/icons/bullet_blue.gif" height="8" width="8" alt=""/>
+                                <a href="attachments/17170483/17170518.png">image-20210217-184044.png</a> (image/png)
+                                <br/>
+                                                            <img src="images/icons/bullet_blue.gif" height="8" width="8" alt=""/>
+                                <a href="attachments/17170483/17170524.png">image-20210217-184145.png</a> (image/png)
+                                <br/>
+                                                            <img src="images/icons/bullet_blue.gif" height="8" width="8" alt=""/>
+                                <a href="attachments/17170483/17170530.png">image-20210217-184332.png</a> (image/png)
+                                <br/>
+                                                    </div>
+                    </div>
+                    
+                                                      
+                </div>             </div> 
+            <div id="footer" role="contentinfo">
+                <section class="footer-body">
+                    <p>Document generated by Confluence on May 25, 2021 14:56</p>
+                    <div id="footer-logo"><a href="http://www.atlassian.com/">Atlassian</a></div>
+                </section>
+            </div>
+        </div>     </body>
+</html>

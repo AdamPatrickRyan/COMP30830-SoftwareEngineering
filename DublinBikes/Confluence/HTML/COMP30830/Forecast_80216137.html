@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Disappster : Forecast</title>
+        <link rel="stylesheet" href="styles/site.css" type="text/css" />
+        <META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    </head>
+
+    <body class="theme-default aui-theme-default">
+        <div id="page">
+            <div id="main" class="aui-page-panel">
+                <div id="main-header">
+                    <div id="breadcrumb-section">
+                        <ol id="breadcrumbs">
+                            <li class="first">
+                                <span><a href="index.html">Disappster</a></span>
+                            </li>
+                                                    <li>
+                                <span><a href="Disappster-Home_33079.html">Disappster Home</a></span>
+                            </li>
+                                                    <li>
+                                <span><a href="System-Design_33384.html">System Design</a></span>
+                            </li>
+                                                    <li>
+                                <span><a href="Data-Model_33427.html">Data Model</a></span>
+                            </li>
+                                                    <li>
+                                <span><a href="Extract-Data-Store_7733277.html">Extract Data Store</a></span>
+                            </li>
+                                                </ol>
+                    </div>
+                    <h1 id="title-heading" class="pagetitle">
+                                                <span id="title-text">
+                            Disappster : Forecast
+                        </span>
+                    </h1>
+                </div>
+
+                <div id="content" class="view">
+                    <div class="page-metadata">
+                        
+        
+    
+        
+    
+        
+        
+            Created by <span class='author'> Adam Ryan</span>, last modified on Apr 15, 2021
+                        </div>
+                    <div id="main-content" class="wiki-content group">
+                    <p /><div class='plugin-tabmeta-details'><h2 id="Forecast-ForecastTable">Forecast Table</h2><div class="table-wrap"><table data-layout="default" class="confluenceTable"><colgroup><col/><col style="width: 192.0px;"/><col style="width: 190.0px;"/><col style="width: 190.0px;"/><col style="width: 190.0px;"/><col style="width: 190.0px;"/><col style="width: 190.0px;"/><col style="width: 190.0px;"/><col style="width: 190.0px;"/></colgroup><tbody><tr><th class="numberingColumn confluenceTh" /><th class="confluenceTh"><p><strong>Name</strong></p></th><th class="confluenceTh"><p><strong>Type</strong></p></th><th class="confluenceTh"><p><strong>All Instances Unique?</strong></p></th><th class="confluenceTh"><p><strong>PK</strong></p></th><th class="confluenceTh"><p><strong>FK</strong></p></th><th class="confluenceTh"><p><strong>Field Values</strong></p></th><th class="confluenceTh"><p><strong>Nullable</strong></p></th><th class="confluenceTh"><p><strong>Description</strong></p></th></tr><tr><td class="numberingColumn confluenceTd">1</td><td class="confluenceTd"><p>number</p></td><td class="confluenceTd"><p>INT</p></td><td class="confluenceTd"><p>No</p></td><td class="confluenceTd"><p>No</p></td><td class="confluenceTd"><p>Yes - station</p></td><td class="confluenceTd"><p>1…109</p></td><td class="confluenceTd"><p>No</p></td><td class="confluenceTd"><p>Station Number</p></td></tr><tr><td class="numberingColumn confluenceTd">2</td><td class="confluenceTd"><p>position_long</p></td><td class="confluenceTd"><p>REAL</p></td><td class="confluenceTd"><p>No</p></td><td class="confluenceTd"><p>No</p></td><td class="confluenceTd"><p>No</p></td><td class="confluenceTd"><p>-6.2656</p></td><td class="confluenceTd"><p>No</p></td><td class="confluenceTd"><p>Longitude</p></td></tr><tr><td class="numberingColumn confluenceTd">3</td><td class="confluenceTd"><p>position_lat</p></td><td class="confluenceTd"><p>REAL</p></td><td class="confluenceTd"><p>No</p></td><td class="confluenceTd"><p>No</p></td><td class="confluenceTd"><p>No</p></td><td class="confluenceTd"><p>53.3581</p></td><td class="confluenceTd"><p>No</p></td><td class="confluenceTd"><p>Latitude</p></td></tr><tr><td class="numberingColumn confluenceTd">4</td><td class="confluenceTd"><p>weather_id</p></td><td class="confluenceTd"><p>INTEGER</p></td><td class="confluenceTd"><p>No</p></td><td class="confluenceTd"><p>No</p></td><td class="confluenceTd"><p>No</p></td><td class="confluenceTd"><p>803</p></td><td class="confluenceTd"><p>No</p></td><td class="confluenceTd"><p>Weather ID Type</p></td></tr><tr><td class="numberingColumn confluenceTd">5</td><td class="confluenceTd"><p>main</p></td><td class="confluenceTd"><p>VARCHAR(256)</p></td><td class="confluenceTd"><p>No</p></td><td class="confluenceTd"><p>No</p></td><td class="confluenceTd"><p>No</p></td><td class="confluenceTd"><p>Clouds</p></td><td class="confluenceTd"><p>No</p></td><td class="confluenceTd"><p>Short Description</p></td></tr><tr><td class="numberingColumn confluenceTd">6</td><td class="confluenceTd"><p>description</p></td><td class="confluenceTd"><p>VARCHAR(500)</p></td><td class="confluenceTd"><p>No</p></td><td class="confluenceTd"><p>No</p></td><td class="confluenceTd"><p>No</p></td><td class="confluenceTd"><p>broken clouds</p></td><td class="confluenceTd"><p>No</p></td><td class="confluenceTd"><p>Weather Description</p></td></tr><tr><td class="numberingColumn confluenceTd">7</td><td class="confluenceTd"><p>icon</p></td><td class="confluenceTd"><p>VARCHAR(20)</p></td><td class="confluenceTd"><p>No</p></td><td class="confluenceTd"><p>No</p></td><td class="confluenceTd"><p>No</p></td><td class="confluenceTd"><p>04d</p></td><td class="confluenceTd"><p>No</p></td><td class="confluenceTd"><p>Weather Icon</p></td></tr><tr><td class="numberingColumn confluenceTd">8</td><td class="confluenceTd"><p>icon_url</p></td><td class="confluenceTd"><p>VARCHAR(500)</p></td><td class="confluenceTd"><p>No</p></td><td class="confluenceTd"><p>No</p></td><td class="confluenceTd"><p>No</p></td><td class="confluenceTd"><p><a href="http://openweathermap.org/img/wn/04d@2x.png" class="external-link" rel="nofollow">http://openweathermap.org/img/wn/04d@2x.png</a></p></td><td class="confluenceTd"><p>No</p></td><td class="confluenceTd"><p>Icon URL</p></td></tr><tr><td class="numberingColumn confluenceTd">9</td><td class="confluenceTd"><p>base</p></td><td class="confluenceTd"><p>varchar(256)</p></td><td class="confluenceTd"><p>No</p></td><td class="confluenceTd"><p>No</p></td><td class="confluenceTd"><p>No</p></td><td class="confluenceTd"><p>stations</p></td><td class="confluenceTd"><p>No</p></td><td class="confluenceTd"><p>Station</p></td></tr><tr><td class="numberingColumn confluenceTd">10</td><td class="confluenceTd"><p>temp</p></td><td class="confluenceTd"><p>REAL</p></td><td class="confluenceTd"><p>No</p></td><td class="confluenceTd"><p>No</p></td><td class="confluenceTd"><p>No</p></td><td class="confluenceTd"><p>286.21</p></td><td class="confluenceTd"><p>No</p></td><td class="confluenceTd"><p>Temp</p></td></tr><tr><td class="numberingColumn confluenceTd">11</td><td class="confluenceTd"><p>feels_like</p></td><td class="confluenceTd"><p>REAL</p></td><td class="confluenceTd"><p>No</p></td><td class="confluenceTd"><p>No</p></td><td class="confluenceTd"><p>No</p></td><td class="confluenceTd"><p>277.02</p></td><td class="confluenceTd"><p>No</p></td><td class="confluenceTd"><p>Feels Like</p></td></tr><tr><td class="numberingColumn confluenceTd">12</td><td class="confluenceTd"><p>temp_min</p></td><td class="confluenceTd"><p>REAL</p></td><td class="confluenceTd"><p>No</p></td><td class="confluenceTd"><p>No</p></td><td class="confluenceTd"><p>No</p></td><td class="confluenceTd"><p>284.82</p></td><td class="confluenceTd"><p>No</p></td><td class="confluenceTd"><p>Min Temp</p></td></tr><tr><td class="numberingColumn confluenceTd">13</td><td class="confluenceTd"><p>temp_max</p></td><td class="confluenceTd"><p>REAL</p></td><td class="confluenceTd"><p>No</p></td><td class="confluenceTd"><p>No</p></td><td class="confluenceTd"><p>No</p></td><td class="confluenceTd"><p>287.15</p></td><td class="confluenceTd"><p>No</p></td><td class="confluenceTd"><p>Max Temp</p></td></tr><tr><td class="numberingColumn confluenceTd">14</td><td class="confluenceTd"><p>pressure</p></td><td class="confluenceTd"><p>INT</p></td><td class="confluenceTd"><p>No</p></td><td class="confluenceTd"><p>No</p></td><td class="confluenceTd"><p>No</p></td><td class="confluenceTd"><p>1001</p></td><td class="confluenceTd"><p>No</p></td><td class="confluenceTd"><p>Air Pressure</p></td></tr><tr><td class="numberingColumn confluenceTd">15</td><td class="confluenceTd"><p>humidity</p></td><td class="confluenceTd"><p>INT</p></td><td class="confluenceTd"><p>No</p></td><td class="confluenceTd"><p>No</p></td><td class="confluenceTd"><p>No</p></td><td class="confluenceTd"><p>77</p></td><td class="confluenceTd"><p>No</p></td><td class="confluenceTd"><p>Humidity</p></td></tr><tr><td class="numberingColumn confluenceTd">16</td><td class="confluenceTd"><p>visibility</p></td><td class="confluenceTd"><p>INT</p></td><td class="confluenceTd"><p>No</p></td><td class="confluenceTd"><p>No</p></td><td class="confluenceTd"><p>No</p></td><td class="confluenceTd"><p>10000</p></td><td class="confluenceTd"><p>No</p></td><td class="confluenceTd"><p>Visibility</p></td></tr><tr><td class="numberingColumn confluenceTd">17</td><td class="confluenceTd"><p>wind_speed</p></td><td class="confluenceTd"><p>REAL</p></td><td class="confluenceTd"><p>No</p></td><td class="confluenceTd"><p>No</p></td><td class="confluenceTd"><p>No</p></td><td class="confluenceTd"><p>12.86</p></td><td class="confluenceTd"><p>No</p></td><td class="confluenceTd"><p>Wind Speed</p></td></tr><tr><td class="numberingColumn confluenceTd">18</td><td class="confluenceTd"><p>wind_degree</p></td><td class="confluenceTd"><p>INT</p></td><td class="confluenceTd"><p>No</p></td><td class="confluenceTd"><p>No</p></td><td class="confluenceTd"><p>No</p></td><td class="confluenceTd"><p>200</p></td><td class="confluenceTd"><p>No</p></td><td class="confluenceTd"><p>Wind Direction</p></td></tr><tr><td class="numberingColumn confluenceTd">19</td><td class="confluenceTd"><p>clouds_all</p></td><td class="confluenceTd"><p>INT</p></td><td class="confluenceTd"><p>No</p></td><td class="confluenceTd"><p>No</p></td><td class="confluenceTd"><p>No</p></td><td class="confluenceTd"><p>75</p></td><td class="confluenceTd"><p>No</p></td><td class="confluenceTd"><p>Clouds???</p></td></tr><tr><td class="numberingColumn confluenceTd">20</td><td class="confluenceTd"><p>forecast_time_ts</p></td><td class="confluenceTd"><p>BIGINT</p></td><td class="confluenceTd"><p>No</p></td><td class="confluenceTd"><p>No</p></td><td class="confluenceTd"><p>No</p></td><td class="confluenceTd"><p>1614079641</p></td><td class="confluenceTd"><p>No</p></td><td class="confluenceTd"><p>Datetime - TS format</p></td></tr><tr><td class="numberingColumn confluenceTd">21</td><td class="confluenceTd"><p>forecast_time_dt</p></td><td class="confluenceTd"><p>DATETIME</p></td><td class="confluenceTd"><p>No</p></td><td class="confluenceTd"><p>No</p></td><td class="confluenceTd"><p>No</p></td><td class="confluenceTd"><p>2021-01-01</p></td><td class="confluenceTd"><p>No</p></td><td class="confluenceTd"><p>Datetime - DT Format</p></td></tr><tr><td class="numberingColumn confluenceTd">22</td><td class="confluenceTd"><p>created_date</p></td><td class="confluenceTd"><p>BIGINT</p></td><td class="confluenceTd"><p>No</p></td><td class="confluenceTd"><p>No</p></td><td class="confluenceTd"><p>No</p></td><td class="confluenceTd"><p>1614101644</p></td><td class="confluenceTd"><p>No</p></td><td class="confluenceTd"><p>Datetime added to DB</p></td></tr></tbody></table></div><h2 id="Forecast-Note">Note</h2><p>Number_Created_date is a FK to Availability</p></div>
+                    </div>
+
+                    
+                                                      
+                </div>             </div> 
+            <div id="footer" role="contentinfo">
+                <section class="footer-body">
+                    <p>Document generated by Confluence on May 25, 2021 14:56</p>
+                    <div id="footer-logo"><a href="http://www.atlassian.com/">Atlassian</a></div>
+                </section>
+            </div>
+        </div>     </body>
+</html>
